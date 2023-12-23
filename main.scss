@@ -1,0 +1,18 @@
+@import "./partials/config";
+
+.canvas {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: $background-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  @import "./partials/sun";
+  @import "./partials/spots";
+  @import "./partials/gaia";
+  @import "./partials/mars";
+  @import "./partials/venus";
+  @import "./partials/mercury";
+}

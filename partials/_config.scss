@@ -1,0 +1,34 @@
+/**
+ * Global Color Variables
+ */
+$background-color: #321;
+$spot-cyan: cyan;
+$spot-magenta: magenta;
+$spot-yellow: yellow;
+$sun-base-color: #ffc751;
+$sun-dark-color: #cf9025;
+$mercury-base-color: #af957f;
+$mercury-dark-color: #8f6050;
+$venus-base-color: #c7dfa0;
+$venus-dark-color: #9fc28e;
+$earth-base-color: #4f6ab0;
+$earth-dirt-color: #af7065;
+$earth-cloud-color: #f1f4f7;
+$earth-green-color: #aeb085;
+$mars-sand-color: #cf6550;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
